@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .primary {
+            background-color: maroon;
+            color: white;
+        }
+        .primary:hover {
+            background-color: #0056b3;
+        }
+        .secondary {
+            background-color: olive;
+            color: white;
+        }
+        .secondary:hover {
+            background-color: #545b62;
+        }
+        .danger {
+            background-color: gray;
+            color: white;
+        }
+        .danger:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <button class="primary">Primary</button>
+    <button class="secondary">Secondary</button>
+    <button class="danger">Danger</button>
+</body>
+</html>
