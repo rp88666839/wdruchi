@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        ul, ol {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "\2022"; /* Bullet symbol */
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        ol li {
+            counter-increment: custom-counter;
+        }
+        ol li::before {
+            content: counter(custom-counter) ". ";
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        li {
+            color: #333;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ul>
+</body>
+</html>
