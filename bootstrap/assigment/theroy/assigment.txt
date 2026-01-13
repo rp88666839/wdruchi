@@ -1,0 +1,42 @@
+                                                                                                                            Website Designing Assignment
+
+ 
+1. What is Bootstrap, and why is it useful for website design?
+=>  Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design        templates for typography, forms, buttons, tables, navigation/navbar, modals, image carousels/slider, hide & show, and many other,
+       as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs. 
+  
+      The advantages of using Bootstrap framework is : it is easy to use (Anybody with just basic knowledge of HTML and CSS can start using       Bootstrap), Responsive features (Bootstrap's responsive CSS adjusts to phones, tablets, and desktops), Mobile-first approach( In       Bootstrap, mobile-first styles are part of the core framework), Browser compatibility (Bootstrap 5 is compatible with all modern       browsers (Chrome, Firefox, Edge, Safari, and Opera)). It makes BS easier to use for website design.
+
+2. Explain the Bootstrap grid system and how it helps create responsive layouts.
+Answer :-  1. Container :- Every grid starts with a .container (fixed-width) or .container-fluid (full-width).
+                                               This wraps the content and provides proper alignment.
+                   2. Rows :-  Inside the container, you create a (.row).
+                                       Rows are used to group columns and clear floating issues.
+                   3. Columns :-  The actual content holders (.col, .col-md-6, etc).
+          
+  . Bootstrap uses breakpoints to adapt layouts for different devices:
+
+           Breakpoint	                                    Class Prefix	                                             Screen Size
+
+           Extra small	                                           .col-	                                                <576px
+               Small	                                           .col-sm-	                                                ≥576px
+            Medium	                                           .col-md-	                                                ≥768px
+               Large	                                           .col-lg-	                                                ≥992px
+          Extra large	                                           .col-xl-	                                                ≥1200px
+              XXL	                                           .col-xxl-	                                                ≥1400px
+
+
+
+3. List and explain at least three Bootstrap components (e.g., navbar, cards, buttons).
+Answer :-  1. Navbar :-  The navbar is a responsive navigation header that adapts to different screen sizes.
+                       Purpose :- Helps users navigation your site with link, dropdown, brand logos, and toggles .
+                       Features :- 1) Collapses into a humburger menu on smaller screens.
+                                            2) Supports dark/light themes and sticky positioning. 
+2. Cards :- The card component is a flexible container like text, images, and links. 
+    Purpose :- Great for displaying blog posts, product details, user profiles, etc.
+    Features :-  1) Supports headers, footers, images, and button.
+                          2) Easily customizable with utility classes.
+3. Buttons :- Bootstrap button are styled element used for actions like submitting forms or triggering modals.
+    Purpose :- Provides consistent style for clickable actions.
+    Features :- 1) Multiple style: btn-primary, btn-success, btn-danger, etc.
+                         2) Can be size (btn-sm, btn-lg) and grouped.
