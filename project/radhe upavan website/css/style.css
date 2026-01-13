@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+.navbaar{
+  background-color: white;
+  padding: ;
+  text-align:center ;
+}
+.header{
+  margin-inline-start: 540px;
+  
+  position: fixed;
+  
+}
+.mainbaar{
+  width: 100%;
+  height: 700px;
+ background-image: url('https://www.radheupavanresort.com/images/gallery/gallery_radhe_upavan7.jpg');
+ text-align: center;
+ font-size: x-large;
+ 
+ color: white;
+}
+.mainbaar1{
+background-image: ;
+}
+.mainbaar2{
+  background-color: white;
+  text-align: center;
+}
+.sidbaar{
+
+}
+.Our-Amenities{
+  background-color: orange;
+  text-align: center;
+  padding: 80px;
+}
+.sidbaar2{
+  text-align: center;
+  background-image: url('https://pix10.agoda.net/hotelImages/5883499/0/0d155f924c642e1fe5772068b4bbfa50.jpeg?ce=0&s=702x392');
+ 
+  color: white;
+}
+.gallery-box{
+  text-align: center;
+  
+}
+.gallery{
+  float: left;
+ 
+}
+.gallery1{
+  float: left;
+
+}
+.gallery2{
+  
+}
+.Testimonials{
+  background-color: white;
+  color: white;
+  padding: 30px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  font-style: initial;
+}
